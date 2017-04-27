@@ -13,5 +13,6 @@ public class TestJDBCDemo {
 		Connection conn = DriverManager.getConnection(DBURL, DBUSER, DBPASSWORD) ;
 		System.out.println(conn);
 		conn.close(); 
+		System.out.println("Hello");
 	}
 }
